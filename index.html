@@ -3,10 +3,33 @@
 <html>
 <head>
   <title>Chemical Inventory Scanner Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .privacy-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .privacy-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
   <h1>Need Help?</h1>
   <p>This is the support page for the Chemical Inventory Scanner app.</p>
-  <p>Email us at: <a href="chemicalinventoryscanner@gmail.com">chemicalinventoryscanner@gmail.com</a></p>
+  <p>Email us at: <a href="mailto:chemicalinventoryscanner@gmail.com">chemicalinventoryscanner@gmail.com</a></p>
+  <button class="privacy-button" onclick="goToPrivacyPolicy()">View Privacy Policy</button>
+  <script src="script.js"></script>
 </body>
 </html>
